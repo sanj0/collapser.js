@@ -12,7 +12,8 @@ headings (or arbitrary nodes)
    be visible by default (and not hidden by default)
 
 The collapsables content is always its `nextElementSibling` and its visibility
-is toggled between `"block"` and `none`.
+is toggled between `"block"` and `"none"`. If the node has more than one semantic
+child, consider wrapping them all in a `span` or `div`.
 
 ## Customization
 
